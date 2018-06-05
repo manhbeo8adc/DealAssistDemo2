@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealAssistDemo2", "DealAssistDemo2\DealAssistDemo2.csproj", "{C05BE9C2-5780-45AD-94F8-371B9D978977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assembly Library", "Assembly Library", "{D0D2C72F-FEAE-40E4-A570-B72C5CE24BA6}"
+	ProjectSection(SolutionItems) = preProject
+		..\DealAssistDemo\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll = ..\DealAssistDemo\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll
+		..\DealAssistDemo\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\system.web.optimization.xml = ..\DealAssistDemo\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\system.web.optimization.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05BE9C2-5780-45AD-94F8-371B9D978977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05BE9C2-5780-45AD-94F8-371B9D978977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05BE9C2-5780-45AD-94F8-371B9D978977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05BE9C2-5780-45AD-94F8-371B9D978977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAAAEABF-68EF-4FE4-99C9-033FB07F200E}
+	EndGlobalSection
+EndGlobal
